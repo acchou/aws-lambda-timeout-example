@@ -25,4 +25,4 @@ The function never returns. The cloudwatch logs show the function appears to tim
 
 Updating the function timeout to 5s results in the invoke terminating with an error, as expected:
 
-    $ ./update-ad-run-function.sh 5
+    $ ./update-and-run-function.sh 5
